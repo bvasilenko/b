@@ -1,0 +1,13 @@
+---
+description: Use banchor before work that must stay aligned to a mission.
+globs: ["**/*"]
+alwaysApply: false
+---
+
+Before starting work that must stay aligned to a mission, call:
+
+```sh
+banchor induct "<task>" --mission <path-or-name>
+```
+
+Exit codes: `0` proceed, `1` stop because the task conflicts with the mission, `2` stop because mission evidence is missing or incomplete, `64` stop because invocation shape is invalid. Treat stdout as the directive for the next action.

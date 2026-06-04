@@ -1,0 +1,13 @@
+---
+description: Use bground when a factual claim should be checked against supplied evidence.
+globs: ["**/*"]
+alwaysApply: false
+---
+
+Before acting on a factual claim that needs supplied evidence, call:
+
+```sh
+bground verify "<claim-type>:<target>:<assertion>" --evidence <id>=<value>
+```
+
+Exit codes: `0` proceed, `1` stop because evidence does not support the claim, `2` stop because evidence is missing or incomplete, `64` stop because invocation shape is invalid. Treat stdout as the directive for the next action.
