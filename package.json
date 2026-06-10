@@ -1,7 +1,7 @@
 {
   "name": "@booga/bsuite-bindings",
   "version": "0.1.0",
-  "description": "Agent-substrate binding for the b-* command-line tools. Installs Claude Code skills, Codex AGENTS template, and Cursor rules so autonomous LLM-agent loops discover and invoke the binaries automatically.",
+  "description": "Installer for the b-* prompt lookup tools. Registers each tool as a Claude Code skill, Codex AGENTS template, or Cursor rule so the agent loop discovers and invokes them automatically.",
   "type": "module",
   "bin": {
     "bsuite-bindings": "./dist/cli.js"

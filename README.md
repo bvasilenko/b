@@ -1,6 +1,6 @@
 # bsuite-bindings
 
-Agent-substrate binding for the b-* command-line tools. Installs Claude Code skills, Codex AGENTS template, and Cursor rules so autonomous LLM-agent loops discover and invoke the binaries automatically.
+Installer for the b-* prompt lookup tools. Registers each tool as a Claude Code skill, Codex AGENTS template, or Cursor rule so the agent loop discovers and invokes them automatically.
 
 bsuite-bindings makes the b-* binaries reachable from inside an LLM-agent loop without operator-authored system-prompt glue. It installs target-native instruction files that tell the agent when to call `bground` and `banchor`, how to pass inputs, and how to interpret exit codes.
 
