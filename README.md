@@ -1,5 +1,8 @@
 # b
 
+Discipline runtime for your AI coding agent, installed in one line. After `npm install -D @booga/b`, every Claude Code session, Codex run, or Cursor pass picks up 6 small tools that fire transparently: bground verifies factual claims; banchor checks task drift; bsmell flags deflection patterns (mock-instead-of-fix etc.); bratch catches regression-signature changes; bwatch consults outward trackers; bspector scans new tools before install. Verdicts return as directives the agent acts on: no operator intervention. The capability shape is closed; the prompt library that powers each verdict evolves continuously via empirical-lift evaluation.
+
+
 Entry point for the b-* prompt lookup tools. Installs the tools, registers each as a Claude Code skill, Codex AGENTS template, or Cursor rule so the agent loop discovers and invokes them, and updates installed tools on demand.
 
 ## One-line install
